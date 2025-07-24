@@ -1,10 +1,7 @@
 services:
   - type: web
     name: user-activity-notification-system
-    env: java
-    buildCommand: ./mvnw clean install
-    startCommand: ./mvnw spring-boot:run
+    env: docker
     plan: free
     region: oregon
     branch: main
-    runtime: java
